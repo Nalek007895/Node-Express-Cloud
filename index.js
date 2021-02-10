@@ -5,7 +5,7 @@ const app = exprass();
 const port = process.env.PORT;
 
 app.get("/", (req, res) => {
-  res.send("HELLO");
+  res.send("HELLO อ.ประดิษฐ์");
 });
 
 app.listen(port, () => {
